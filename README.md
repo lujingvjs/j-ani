@@ -1,24 +1,19 @@
-# j-ani
+# j-ani使用指南
 
-## Project setup
+## 下载依赖
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install --save j-ani
 ```
 
-### Compiles and minifies for production
+### 在main.js中引入
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+import jAni from 'j-ani'
+Vue.use(jAni)
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 使用组件
+```
+直接使用：
+<Test></Test>
+```
+

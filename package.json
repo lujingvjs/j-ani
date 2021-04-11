@@ -1,14 +1,19 @@
 {
   "name": "j-ani",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.7",
+  "description": "一些常用的动画库",
+  "main": "lib/j-ani.umd.min.js",
+  "keyword": "animiation jAni j-ani",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name j-ani --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
