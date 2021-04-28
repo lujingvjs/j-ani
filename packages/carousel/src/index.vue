@@ -1,7 +1,7 @@
 <!--
  * @Author: lujing
  * @Date: 2021-04-10 19:30:35
- * @LastEditTime: 2021-04-11 20:05:33
+ * @LastEditTime: 2021-04-11 20:32:22
  * @LastEditors: Please set LastEditors
  * @Description: 轮播图组件
  * @FilePath: /jAni/code/j-ani/packages/carousel/src/index.vue
@@ -35,7 +35,7 @@
           :class="{ active: index === currPage }"
           :key="index"
         >
-          <img :src="require('../imgs/' + item.src)" alt="" srcset="" />
+          <img :src="item.src" alt="" srcset="" />
         </li>
       </ul>
     </div>
@@ -75,14 +75,10 @@ export default {
       type: Array,
       default: () => {
         return [
-          { name: "第一张图片说明", src: "fj1.png" },
-          { name: "第二张图片说明", src: "fj2.png" },
-          { name: "第三张图片说明", src: "fj3.png" },
-          { name: "第四张图片说明", src: "fj4.png" },
-          { name: "第五张图片说明", src: "fj5.png" },
-          { name: "第六张图片说明", src: "fj6.png" },
-          { name: "第七张图片说明", src: "fj7.png" },
-          { name: "第八张图片说明", src: "fj8.png" },
+          { name: "第一张图片说明", src:  "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3130125737,4291579555&fm=26&gp=0.jpg" },
+          { name: "第二张图片说明", src:   "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=11918710,2392753884&fm=26&gp=0.jpg" },
+          { name: "第三张图片说明", src:  "https://ss1.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/ca1349540923dd54ea2076a4d309b3de9d8248af.jpg" }
+       
         ];
       },
     },

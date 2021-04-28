@@ -1,8 +1,11 @@
 // 导入颜色选择器组件
 import Jcarousel from './carousel'
+// 文字动画
+import AniTxt from './aniTxt'
 // 存储组件列表
 const components = {
-    Jcarousel
+    Jcarousel,
+    AniTxt
 }
 
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
@@ -25,7 +28,8 @@ if (typeof window !== 'undefined' && window.Vue) {
 //     ...components 
 // }   //错误写法
 export {
-    Jcarousel
+    Jcarousel,
+    AniTxt
 }
 
 //整体引入的方式导出

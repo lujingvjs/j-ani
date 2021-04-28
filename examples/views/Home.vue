@@ -8,7 +8,7 @@
       </el-tab-pane>
       <el-tab-pane label="第二组">
         <el-tabs tab-position="left" style="height: 90vh">
-          <el-tab-pane label="tab">敬请期待2</el-tab-pane>
+          <el-tab-pane label="动画文字"><AniTxt></AniTxt></el-tab-pane>
         </el-tabs>
       </el-tab-pane>
       <el-tab-pane label="第三组">
